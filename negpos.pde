@@ -1,10 +1,9 @@
 
-int i = (int)random(-30, 30);
+int number = (int)random(-1000, 1000);
 
-println(i);
-if (i < 0)
+println(number);
+if (number < 0)
   println("Negativ");
 else
   println("Positiv");
-
 
